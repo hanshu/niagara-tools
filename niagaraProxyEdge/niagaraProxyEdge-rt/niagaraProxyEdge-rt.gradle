@@ -1,0 +1,30 @@
+/* Module Build File */
+
+description     = ""
+ext {
+}
+niagaraModule {
+  moduleName = "niagaraProxyEdge"
+  preferredSymbol = "npe"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+  compile "Tridium:nre:4.3"
+  compile "Tridium:baja:4.3"
+  compile "Tridium:control-rt:4.3"
+  compile "Tridium:niagaraDriver-rt:4.3"
+  compile "Tridium:driver-rt:4.3"
+
+//  compile "Tridium:niagaraDriver-wb:4.3"
+//  compile "Tridium:driver-ux:4.3"
+//  compile "Tridium:driver-wb:4.3"
+//  compile "Tridium:workbench-wb:4.3"
+//  compile "Tridium:niagaraVirtual-rt:4.3"
+//  compile "Tridium:niagaraVirtual-wb:4.3"
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

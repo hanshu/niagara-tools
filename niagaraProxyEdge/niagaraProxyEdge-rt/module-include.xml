@@ -1,0 +1,13 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!-- Type Example:<type name="MyClass" class="com.acme.BMyClass"/> -->
+  <!--com.tridiumap.niagaraProxyEdge-->
+  <type class="com.tridiumap.niagaraProxyEdge.BNiagaraProxyPointConverter" name="NiagaraProxyPointConverter"/>
+  <!--com.tridiumap.niagaraProxyEdge.interfaces-->
+  <type class="com.tridiumap.niagaraProxyEdge.interfaces.BINiagaraProxyPoint" name="INiagaraProxyPoint"/>
+  <!--com.tridiumap.niagaraProxyEdge.points-->
+  <type class="com.tridiumap.niagaraProxyEdge.points.BNiagaraProxyPointBooleanWritable" name="NiagaraProxyPointBooleanWritable"/>
+  <type class="com.tridiumap.niagaraProxyEdge.points.BNiagaraProxyPointNumericWritable" name="NiagaraProxyPointNumericWritable"/>
+  <type class="com.tridiumap.niagaraProxyEdge.points.BNiagaraProxyPointProxyExt" name="NiagaraProxyPointProxyExt"/>
+</types>
